@@ -34,6 +34,7 @@ function App() {
           path="/orders">
           <Orders />
         </Route>
+        
         <Route
           exact
           path="/restaurants/:restaurantsId/foods"
@@ -43,6 +44,7 @@ function App() {
             />
         }
         />
+        
       </Switch>
     </Router>
   );
